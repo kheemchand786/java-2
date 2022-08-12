@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let num1=5;
+        num1 +=5;
+    </script>
+</head>
+<body>
+    <h1>Return value </h1>
+    <script>
+        let a = 5;
+        let b = 10;
+        let result = a++ +3 + b-- - a * 2 % 3;
+//                   5   +3 + 10  -6 * 2 % 3;
+//                  5    +3 + 10  -0
+//                  18 
+let result = ++a / 2 * b-- - --b--a * ++b;
+console.log(result);
+    </script>
+<head><body
+<h3>Taking user input</h3>
+<form> onsubmit="dosum();Return false">
+    num1: <input type="text">
+    <br>
+    num2: <input type="text">
+    <br>
+    <button type="submit">sum</button>
+    </button>
+</form>
+<script>
+    function dosum() {
+        var firstnumber= document.querySelector("#num1").value
+        var seceondnumber= document.querySelector("#num2").value
+
+        console.log(firstnumber, seceondnumber)        
+</script>
